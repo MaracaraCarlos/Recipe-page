@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #f3e6d8;
+}
+
+main {
+  width: 735px;
+  min-width: 375px;
+  background-color: #ffffff;
+  margin-block: 30px;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: "Young Serif";
+  padding-top: 20px;
+  color: #302d2c;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Young Serif";
+  color: #854632;
+  font-weight: 600;
+}
+
+h3 {
+  color: #7b284f;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+p {
+  color: #5f574e;
+}
+
+#preparetion_section {
+  margin-block: 20px;
+  background-color: #fff5fa;
+  border-radius: 10px;
+  padding: 15px;
+}
+#preparetion_section ul {
+  padding-left: 17px;
+  padding-top: 10px;
+  color: #5f574e;
+  line-height: 2rem;
+}
+#preparetion_section ul ::marker {
+  color: #7b284f;
+}
+
+#ingredients_section {
+  padding-bottom: 20px;
+}
+#ingredients_section ul {
+  padding-left: 17px;
+  padding-top: 10px;
+  line-height: 2rem;
+  color: #5f574e;
+}
+#ingredients_section ul ::marker {
+  color: #854632;
+}
+
+#instruction_section {
+  padding-block: 20px;
+}
+
+#list_num {
+  list-style: decimal;
+  padding-left: 17px;
+  line-height: 1.5rem;
+  color: #5f574e;
+}
+#list_num ::marker {
+  color: #854632;
+  font-weight: 600;
+  line-height: 2.2rem;
+}
+
+#nutrition_section {
+  padding-block: 20px;
+}
+#nutrition_section p {
+  padding-top: 15px;
+}
+
+.table {
+  width: 100%;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  gap: 35%;
+}
+
+.first_col {
+  padding: 10px 0 10px 20px;
+  width: 100px;
+}
+
+.second_col {
+  color: #854632;
+  font-weight: 600;
+}
+
+@media (width <= 450px) {
+  main {
+    margin-block: 0;
+    border-radius: 0;
+    position: relative;
+  }
+  img {
+    position: absolute;
+    border-radius: 0;
+    top: 0;
+    left: 0;
+  }
+  main h1 {
+    margin-top: 180px;
+  }
+}/*# sourceMappingURL=style.css.map */
